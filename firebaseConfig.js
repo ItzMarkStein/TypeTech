@@ -1,5 +1,5 @@
 import { initializeApp } from 'firebase/app';
-import { getFirestore } from 'firebase/firestore';
+import { getFirestore } from 'firebase/firestore/lite';
 
 
 const firebaseConfig = {
@@ -8,7 +8,7 @@ const firebaseConfig = {
   projectId: "typetech-8b6f2",
   storageBucket: "typetech-8b6f2.firebasestorage.app",
   messagingSenderId: "505183939122",
-  appId: "1:505183939122:web:477a4a92919e0b957b6a2b"
+  appId: "1:505183939122:web:303758a2d4b42a727b6a2b"
 };
 
 const app = initializeApp(firebaseConfig);
